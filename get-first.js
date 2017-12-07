@@ -9,7 +9,8 @@
  */
 
 // Your code :
-
+const getFirst = bendo => bendo[0]
+console.log(getFirst('bendo'))
 //* Begin of tests
 const assert = require('assert')
 

@@ -9,6 +9,13 @@
  */
 
 // Your code :
+const sign = number => Math.sign(number)
+console.log(sign(-2))
+console.log(sign(10))
+console.log(sign(0))
+console.log(sign(132))
+console.log(sign.length)
+const multiply = (a, b) => Math.imul(a, b)
 
 //* Begin of tests
 const assert = require('assert')

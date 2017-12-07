@@ -8,6 +8,7 @@
  */
 
 // Your code :
+const add =(bendo1, bendo2) => (bendo1 + bendo2)
 
 //* Begin of tests
 const assert = require('assert')

@@ -17,6 +17,8 @@ const sourceObject = {
 }
 
 // Your code :
+const get = most => sourceObject[most]
+
 
 //* Begin of tests
 const assert = require('assert')

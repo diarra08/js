@@ -9,7 +9,7 @@
  */
 
 // Your code :
-
+const getLength = bendo => bendo.length 
 //* Begin of tests
 const assert = require('assert')
 

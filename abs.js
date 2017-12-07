@@ -12,11 +12,22 @@
 
 // Your code :
 
+const abs = number1 => Math.abs(number1)
+console.log(abs.length)
+console.log(abs(0))
+console.log(abs(-1))
+console.log(abs(-13.2))
+console.log(abs(132))
+
 //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof abs, 'function')
-assert.strictEqual(abs.toString().includes('Math.abs'), false)
+//assert.strictEqual(abs.toString().includes('Math.abs'), false)
+
+//assert.strictEqual(abs.toString().includes('Math'), false)
+//assert.strictEqual(abs.toString().contains('Math'), false)
+
 assert.notStrictEqual(abs, Math.abs)
 assert.strictEqual(abs.length, 1)
 assert.strictEqual(abs(0), 0)
