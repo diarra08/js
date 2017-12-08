@@ -6,7 +6,15 @@
  *
  * @next multiply
  */
-
+const total = bendo => 
+{
+    let resultat = 0
+    for( let x = 0; x < bendo.length; x++)
+    {
+        resultat += bendo[x]
+    }
+    return resultat
+}
 
 //* Begin of tests
 const assert = require('assert')
