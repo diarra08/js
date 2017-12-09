@@ -6,7 +6,11 @@
  *
  * @next total
  */
+<<<<<<< HEAD
 const words = (abc) => ['a', 'b', 'c']
+=======
+
+>>>>>>> b3661c28030f830a71fb0639f0aed0d3fce10303
 
 //* Begin of tests
 const assert = require('assert')

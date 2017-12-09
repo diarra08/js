@@ -6,9 +6,7 @@
  *
  * @next words
  */
-const sentence = bendo => bendo
-console.log(sentence.length)
-console.log([ 'b', 'e', 'n' ])
+
 
 //* Begin of tests
 const assert = require('assert')
