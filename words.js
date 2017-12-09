@@ -6,11 +6,11 @@
  *
  * @next total
  */
-<<<<<<< HEAD
-const words = (abc) => ['a', 'b', 'c']
-=======
-
->>>>>>> b3661c28030f830a71fb0639f0aed0d3fce10303
+const words = str => 
+{
+    const result = str.split(' ')
+    return result
+}
 
 //* Begin of tests
 const assert = require('assert')
@@ -22,3 +22,4 @@ assert.deepStrictEqual(words('a 1 c'), [ 'a', '1', 'c' ])
 assert.deepStrictEqual(words('a 1 c d e f'), [ 'a', '1', 'c', 'd', 'e', 'f' ])
 assert.deepStrictEqual(words('wol.lol lo,lol'), [ 'wol.lol', 'lo,lol'])
 // End of tests */
+ 

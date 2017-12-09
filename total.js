@@ -16,9 +16,6 @@ const total = bendo =>
     return resultat
 }
 
-
- b3661c28030f830a71fb0639f0aed0d3fce10303
-
 //* Begin of tests
 const assert = require('assert')
 
